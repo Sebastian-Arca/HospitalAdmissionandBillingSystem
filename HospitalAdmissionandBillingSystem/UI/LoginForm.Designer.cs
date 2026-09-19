@@ -35,18 +35,20 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(253, 230);
+            label1.Location = new Point(361, 383);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(224, 30);
+            label1.Size = new Size(322, 45);
             label1.TabIndex = 0;
-            label1.Text = "Hospital Login FORM";
+            label1.Text = "Hospital Login form";
             // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1143, 750);
             Controls.Add(label1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "LoginForm";
             Text = "LoginForm";
             ResumeLayout(false);
