@@ -103,7 +103,7 @@
             // 
             // button2
             // 
-            button2.BackColor = Color.LightSkyBlue;
+            button2.BackColor = Color.FromArgb(235, 246, 254);
             button2.FlatAppearance.BorderSize = 0;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -119,7 +119,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.LightSkyBlue;
+            BackColor = Color.FromArgb(235, 246, 254);
             ClientSize = new Size(659, 750);
             Controls.Add(label3);
             Controls.Add(button1);
