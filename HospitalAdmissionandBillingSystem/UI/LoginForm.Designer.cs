@@ -81,6 +81,8 @@
             // button1
             // 
             button1.BackColor = Color.FromArgb(15, 37, 82);
+            button1.FlatAppearance.BorderSize = 0;
+            button1.FlatStyle = FlatStyle.Flat;
             button1.ForeColor = Color.White;
             button1.Location = new Point(92, 505);
             button1.Name = "button1";
