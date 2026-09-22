@@ -28,43 +28,46 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
+            txtUsername = new TextBox();
+            txtPassword = new TextBox();
             label2 = new Label();
             label1 = new Label();
             button1 = new Button();
             label3 = new Label();
             button2 = new Button();
+            btnShow = new Button();
             SuspendLayout();
             // 
-            // textBox1
+            // txtUsername
             // 
-            textBox1.BackColor = Color.White;
-            textBox1.ForeColor = Color.FromArgb(15, 37, 82);
-            textBox1.Location = new Point(92, 379);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(457, 31);
-            textBox1.TabIndex = 1;
-            textBox1.Text = "Username";
+            txtUsername.BackColor = Color.White;
+            txtUsername.ForeColor = Color.FromArgb(15, 37, 82);
+            txtUsername.Location = new Point(64, 227);
+            txtUsername.Margin = new Padding(2);
+            txtUsername.Name = "txtUsername";
+            txtUsername.Size = new Size(321, 23);
+            txtUsername.TabIndex = 1;
             // 
-            // textBox2
+            // txtPassword
             // 
-            textBox2.BackColor = Color.White;
-            textBox2.ForeColor = Color.FromArgb(15, 37, 82);
-            textBox2.Location = new Point(92, 443);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(457, 31);
-            textBox2.TabIndex = 2;
-            textBox2.Text = "Password";
+            txtPassword.BackColor = Color.White;
+            txtPassword.ForeColor = Color.FromArgb(15, 37, 82);
+            txtPassword.Location = new Point(64, 266);
+            txtPassword.Margin = new Padding(2);
+            txtPassword.Name = "txtPassword";
+            txtPassword.Size = new Size(321, 23);
+            txtPassword.TabIndex = 2;
+            txtPassword.UseSystemPasswordChar = true;
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Showcard Gothic", 36F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.ForeColor = Color.FromArgb(15, 37, 82);
-            label2.Location = new Point(125, 211);
+            label2.Location = new Point(88, 127);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(385, 89);
+            label2.Size = new Size(262, 60);
             label2.TabIndex = 3;
             label2.Text = "WELCOME";
             // 
@@ -72,9 +75,10 @@
             // 
             label1.AutoSize = true;
             label1.ForeColor = Color.FromArgb(112, 128, 153);
-            label1.Location = new Point(201, 300);
+            label1.Location = new Point(141, 180);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(241, 25);
+            label1.Size = new Size(160, 15);
             label1.TabIndex = 4;
             label1.Text = "Please log in to your account";
             // 
@@ -84,20 +88,23 @@
             button1.FlatAppearance.BorderSize = 0;
             button1.FlatStyle = FlatStyle.Flat;
             button1.ForeColor = Color.White;
-            button1.Location = new Point(92, 505);
+            button1.Location = new Point(64, 303);
+            button1.Margin = new Padding(2);
             button1.Name = "button1";
-            button1.Size = new Size(457, 70);
+            button1.Size = new Size(320, 42);
             button1.TabIndex = 5;
             button1.Text = "Login";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.ForeColor = Color.FromArgb(112, 128, 153);
-            label3.Location = new Point(167, 593);
+            label3.Location = new Point(117, 356);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(197, 25);
+            label3.Size = new Size(131, 15);
             label3.TabIndex = 6;
             label3.Text = "Don't have an account?";
             // 
@@ -108,41 +115,55 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button2.ForeColor = Color.FromArgb(16, 96, 217);
-            button2.Location = new Point(343, 588);
+            button2.Location = new Point(240, 353);
+            button2.Margin = new Padding(2);
             button2.Name = "button2";
-            button2.Size = new Size(124, 34);
+            button2.Size = new Size(87, 20);
             button2.TabIndex = 7;
             button2.Text = "SIGN UP";
             button2.UseVisualStyleBackColor = false;
             // 
+            // btnShow
+            // 
+            btnShow.ForeColor = Color.Black;
+            btnShow.Location = new Point(343, 266);
+            btnShow.Name = "btnShow";
+            btnShow.Size = new Size(41, 23);
+            btnShow.TabIndex = 8;
+            btnShow.Text = "button3";
+            btnShow.UseVisualStyleBackColor = true;
+            btnShow.Click += btnShow_Click;
+            // 
             // LoginForm
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(235, 246, 254);
-            ClientSize = new Size(659, 750);
+            ClientSize = new Size(461, 450);
+            Controls.Add(btnShow);
             Controls.Add(label3);
             Controls.Add(button1);
             Controls.Add(label1);
             Controls.Add(label2);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(txtPassword);
+            Controls.Add(txtUsername);
             Controls.Add(button2);
             ForeColor = Color.LightSkyBlue;
-            Margin = new Padding(4, 5, 4, 5);
             Name = "LoginForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "LoginForm";
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-        private TextBox textBox1;
-        private TextBox textBox2;
+        private TextBox txtUsername;
+        private TextBox txtPassword;
         private Label label2;
         private Label label1;
         private Button button1;
         private Label label3;
         private Button button2;
+        private Button btnShow;
     }
 }
