@@ -130,7 +130,7 @@
             btnShow.Name = "btnShow";
             btnShow.Size = new Size(41, 23);
             btnShow.TabIndex = 8;
-            btnShow.Text = "button3";
+            btnShow.Text = "👁️";
             btnShow.UseVisualStyleBackColor = true;
             btnShow.Click += btnShow_Click;
             // 

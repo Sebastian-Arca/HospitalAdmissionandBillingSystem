@@ -79,7 +79,7 @@
             button1.FlatStyle = FlatStyle.Flat;
             button1.ForeColor = Color.White;
             button1.Location = new Point(24, 99);
-            button1.Margin = new Padding(2, 2, 2, 2);
+            button1.Margin = new Padding(2);
             button1.Name = "button1";
             button1.Size = new Size(105, 24);
             button1.TabIndex = 0;
@@ -93,7 +93,7 @@
             button2.FlatStyle = FlatStyle.Flat;
             button2.ForeColor = Color.White;
             button2.Location = new Point(24, 139);
-            button2.Margin = new Padding(2, 2, 2, 2);
+            button2.Margin = new Padding(2);
             button2.Name = "button2";
             button2.Size = new Size(105, 24);
             button2.TabIndex = 6;
@@ -107,7 +107,7 @@
             button3.FlatStyle = FlatStyle.Flat;
             button3.ForeColor = Color.White;
             button3.Location = new Point(24, 178);
-            button3.Margin = new Padding(2, 2, 2, 2);
+            button3.Margin = new Padding(2);
             button3.Name = "button3";
             button3.Size = new Size(105, 24);
             button3.TabIndex = 7;
@@ -121,7 +121,7 @@
             button4.FlatStyle = FlatStyle.Flat;
             button4.ForeColor = Color.White;
             button4.Location = new Point(24, 212);
-            button4.Margin = new Padding(2, 2, 2, 2);
+            button4.Margin = new Padding(2);
             button4.Name = "button4";
             button4.Size = new Size(105, 24);
             button4.TabIndex = 8;
@@ -135,7 +135,7 @@
             button5.FlatStyle = FlatStyle.Flat;
             button5.ForeColor = Color.White;
             button5.Location = new Point(24, 251);
-            button5.Margin = new Padding(2, 2, 2, 2);
+            button5.Margin = new Padding(2);
             button5.Name = "button5";
             button5.Size = new Size(105, 24);
             button5.TabIndex = 9;
@@ -149,7 +149,7 @@
             button7.FlatStyle = FlatStyle.Flat;
             button7.ForeColor = Color.White;
             button7.Location = new Point(24, 287);
-            button7.Margin = new Padding(2, 2, 2, 2);
+            button7.Margin = new Padding(2);
             button7.Name = "button7";
             button7.Size = new Size(105, 24);
             button7.TabIndex = 10;
@@ -262,7 +262,7 @@
             listBox1.BackColor = Color.FromArgb(244, 248, 254);
             listBox1.FormattingEnabled = true;
             listBox1.Location = new Point(180, 239);
-            listBox1.Margin = new Padding(2, 2, 2, 2);
+            listBox1.Margin = new Padding(2);
             listBox1.Name = "listBox1";
             listBox1.Size = new Size(638, 199);
             listBox1.TabIndex = 20;
@@ -329,7 +329,7 @@
             button6.FlatStyle = FlatStyle.Flat;
             button6.ForeColor = Color.White;
             button6.Location = new Point(24, 398);
-            button6.Margin = new Padding(2, 2, 2, 2);
+            button6.Margin = new Padding(2);
             button6.Name = "button6";
             button6.Size = new Size(97, 22);
             button6.TabIndex = 26;
@@ -343,7 +343,7 @@
             button8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button8.ForeColor = Color.FromArgb(16, 84, 200);
             button8.Location = new Point(860, 245);
-            button8.Margin = new Padding(2, 2, 2, 2);
+            button8.Margin = new Padding(2);
             button8.Name = "button8";
             button8.Size = new Size(97, 36);
             button8.TabIndex = 27;
@@ -356,7 +356,7 @@
             button9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button9.ForeColor = Color.FromArgb(16, 84, 200);
             button9.Location = new Point(999, 245);
-            button9.Margin = new Padding(2, 2, 2, 2);
+            button9.Margin = new Padding(2);
             button9.Name = "button9";
             button9.Size = new Size(97, 36);
             button9.TabIndex = 28;
@@ -369,7 +369,7 @@
             button10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button10.ForeColor = Color.FromArgb(16, 84, 200);
             button10.Location = new Point(860, 297);
-            button10.Margin = new Padding(2, 2, 2, 2);
+            button10.Margin = new Padding(2);
             button10.Name = "button10";
             button10.Size = new Size(97, 35);
             button10.TabIndex = 29;
@@ -382,7 +382,7 @@
             button11.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button11.ForeColor = Color.FromArgb(16, 84, 200);
             button11.Location = new Point(999, 297);
-            button11.Margin = new Padding(2, 2, 2, 2);
+            button11.Margin = new Padding(2);
             button11.Name = "button11";
             button11.Size = new Size(97, 35);
             button11.TabIndex = 30;
@@ -405,7 +405,7 @@
             button12.BackColor = Color.FromArgb(244, 248, 254);
             button12.ForeColor = Color.FromArgb(16, 84, 200);
             button12.Location = new Point(860, 358);
-            button12.Margin = new Padding(2, 2, 2, 2);
+            button12.Margin = new Padding(2);
             button12.Name = "button12";
             button12.Size = new Size(158, 23);
             button12.TabIndex = 32;
@@ -609,6 +609,7 @@
             Controls.Add(label27);
             Controls.Add(label29);
             Name = "LandingPage";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "LandingPage";
             ResumeLayout(false);
             PerformLayout();
