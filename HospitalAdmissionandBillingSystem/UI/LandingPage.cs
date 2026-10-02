@@ -21,5 +21,10 @@ namespace UI
             lg.Show();
             this.Hide();
         }
+
+        private void LandingPage_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

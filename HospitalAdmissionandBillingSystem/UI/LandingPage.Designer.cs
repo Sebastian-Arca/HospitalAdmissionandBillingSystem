@@ -186,7 +186,7 @@
             label3.Location = new Point(188, 128);
             label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(73, 15);
+            label3.Size = new Size(72, 15);
             label3.TabIndex = 13;
             label3.Text = "Total Rooms";
             // 
@@ -296,7 +296,7 @@
             label12.Location = new Point(452, 221);
             label12.Margin = new Padding(2, 0, 2, 0);
             label12.Name = "label12";
-            label12.Size = new Size(32, 15);
+            label12.Size = new Size(31, 15);
             label12.TabIndex = 23;
             label12.Text = "Type";
             // 
@@ -420,7 +420,7 @@
             label16.Location = new Point(862, 383);
             label16.Margin = new Padding(2, 0, 2, 0);
             label16.Name = "label16";
-            label16.Size = new Size(73, 15);
+            label16.Size = new Size(72, 15);
             label16.TabIndex = 33;
             label16.Text = "Total Rooms";
             // 
@@ -432,7 +432,7 @@
             label17.Location = new Point(862, 398);
             label17.Margin = new Padding(2, 0, 2, 0);
             label17.Name = "label17";
-            label17.Size = new Size(73, 15);
+            label17.Size = new Size(72, 15);
             label17.TabIndex = 34;
             label17.Text = "Total Patient";
             // 
@@ -490,7 +490,7 @@
             label22.Location = new Point(-4, 0);
             label22.Margin = new Padding(2, 0, 2, 0);
             label22.Name = "label22";
-            label22.Size = new Size(167, 445);
+            label22.Size = new Size(161, 445);
             label22.TabIndex = 39;
             // 
             // label23
@@ -508,7 +508,7 @@
             label24.Location = new Point(180, 98);
             label24.Margin = new Padding(2, 0, 2, 0);
             label24.Name = "label24";
-            label24.Size = new Size(186, 65);
+            label24.Size = new Size(182, 66);
             label24.TabIndex = 41;
             // 
             // label25
@@ -553,7 +553,7 @@
             label28.BackColor = Color.FromArgb(235, 246, 254);
             label28.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label28.ForeColor = Color.FromArgb(7, 72, 125);
-            label28.Location = new Point(188, 22);
+            label28.Location = new Point(180, 36);
             label28.Margin = new Padding(2, 0, 2, 0);
             label28.Name = "label28";
             label28.Size = new Size(357, 45);
@@ -611,6 +611,7 @@
             Name = "LandingPage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "LandingPage";
+            Load += LandingPage_Load;
             ResumeLayout(false);
             PerformLayout();
         }
