@@ -198,7 +198,7 @@
             label28.BackColor = Color.FromArgb(235, 246, 254);
             label28.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label28.ForeColor = Color.FromArgb(7, 72, 125);
-            label28.Location = new Point(173, 63);
+            label28.Location = new Point(201, 63);
             label28.Margin = new Padding(2, 0, 2, 0);
             label28.Name = "label28";
             label28.Size = new Size(314, 45);
