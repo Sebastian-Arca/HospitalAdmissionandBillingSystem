@@ -43,12 +43,6 @@
             label7 = new Label();
             label8 = new Label();
             label9 = new Label();
-            listBox1 = new ListBox();
-            label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
-            label13 = new Label();
-            label14 = new Label();
             button6 = new Button();
             button8 = new Button();
             button9 = new Button();
@@ -70,6 +64,13 @@
             label27 = new Label();
             label29 = new Label();
             label28 = new Label();
+            dataGridView1 = new DataGridView();
+            columnPatientName = new DataGridViewTextBoxColumn();
+            columnRoom = new DataGridViewTextBoxColumn();
+            columnType = new DataGridViewTextBoxColumn();
+            columnAdmission = new DataGridViewTextBoxColumn();
+            columnStatus = new DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // button1
@@ -242,65 +243,6 @@
             label9.Size = new Size(164, 25);
             label9.TabIndex = 19;
             label9.Text = "Recent Admission";
-            // 
-            // listBox1
-            // 
-            listBox1.BackColor = Color.FromArgb(244, 248, 254);
-            listBox1.FormattingEnabled = true;
-            listBox1.Location = new Point(257, 398);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(910, 329);
-            listBox1.TabIndex = 20;
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.ForeColor = Color.FromArgb(7, 56, 134);
-            label10.Location = new Point(257, 368);
-            label10.Name = "label10";
-            label10.Size = new Size(122, 25);
-            label10.TabIndex = 21;
-            label10.Text = "Patient  Name";
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.ForeColor = Color.FromArgb(7, 56, 134);
-            label11.Location = new Point(461, 368);
-            label11.Name = "label11";
-            label11.Size = new Size(60, 25);
-            label11.TabIndex = 22;
-            label11.Text = "Room";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.ForeColor = Color.FromArgb(7, 56, 134);
-            label12.Location = new Point(646, 368);
-            label12.Name = "label12";
-            label12.Size = new Size(49, 25);
-            label12.TabIndex = 23;
-            label12.Text = "Type";
-            // 
-            // label13
-            // 
-            label13.AutoSize = true;
-            label13.ForeColor = Color.FromArgb(7, 56, 134);
-            label13.Location = new Point(806, 368);
-            label13.Name = "label13";
-            label13.Size = new Size(143, 25);
-            label13.TabIndex = 24;
-            label13.Text = "Admission Date ";
-            // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.ForeColor = Color.FromArgb(7, 56, 134);
-            label14.Location = new Point(1039, 368);
-            label14.Name = "label14";
-            label14.Size = new Size(60, 25);
-            label14.TabIndex = 25;
-            label14.Text = "Status";
             // 
             // button6
             // 
@@ -520,12 +462,65 @@
             label28.TabIndex = 47;
             label28.Text = "Welcome Back, Admin";
             // 
+            // dataGridView1
+            // 
+            dataGridView1.BackgroundColor = Color.FromArgb(244, 248, 254);
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { columnPatientName, columnRoom, columnType, columnAdmission, columnStatus });
+            dataGridView1.Location = new Point(248, 418);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.RowTemplate.Resizable = DataGridViewTriState.True;
+            dataGridView1.Size = new Size(963, 324);
+            dataGridView1.TabIndex = 48;
+            // 
+            // columnPatientName
+            // 
+            columnPatientName.HeaderText = "Patient Name";
+            columnPatientName.MinimumWidth = 8;
+            columnPatientName.Name = "columnPatientName";
+            columnPatientName.ReadOnly = true;
+            columnPatientName.Width = 300;
+            // 
+            // columnRoom
+            // 
+            columnRoom.HeaderText = "Room";
+            columnRoom.MinimumWidth = 8;
+            columnRoom.Name = "columnRoom";
+            columnRoom.ReadOnly = true;
+            columnRoom.Width = 150;
+            // 
+            // columnType
+            // 
+            columnType.HeaderText = "Type";
+            columnType.MinimumWidth = 8;
+            columnType.Name = "columnType";
+            columnType.ReadOnly = true;
+            columnType.Width = 150;
+            // 
+            // columnAdmission
+            // 
+            columnAdmission.HeaderText = "Admission";
+            columnAdmission.MinimumWidth = 8;
+            columnAdmission.Name = "columnAdmission";
+            columnAdmission.ReadOnly = true;
+            columnAdmission.Width = 150;
+            // 
+            // columnStatus
+            // 
+            columnStatus.HeaderText = "Status";
+            columnStatus.MinimumWidth = 8;
+            columnStatus.Name = "columnStatus";
+            columnStatus.ReadOnly = true;
+            columnStatus.Width = 150;
+            // 
             // LandingPage
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(235, 246, 254);
             ClientSize = new Size(1644, 750);
+            Controls.Add(dataGridView1);
             Controls.Add(label28);
             Controls.Add(label21);
             Controls.Add(label20);
@@ -540,12 +535,6 @@
             Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button6);
-            Controls.Add(label14);
-            Controls.Add(label13);
-            Controls.Add(label12);
-            Controls.Add(label11);
-            Controls.Add(label10);
-            Controls.Add(listBox1);
             Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(label7);
@@ -572,6 +561,7 @@
             Name = "LandingPage";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "LandingPage";
+            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -593,12 +583,6 @@
         private Label label7;
         private Label label8;
         private Label label9;
-        private ListBox listBox1;
-        private Label label10;
-        private Label label11;
-        private Label label12;
-        private Label label13;
-        private Label label14;
         private Button button6;
         private Button button8;
         private Button button9;
@@ -620,5 +604,11 @@
         private Label label27;
         private Label label29;
         private Label label28;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn columnPatientName;
+        private DataGridViewTextBoxColumn columnRoom;
+        private DataGridViewTextBoxColumn columnType;
+        private DataGridViewTextBoxColumn columnAdmission;
+        private DataGridViewTextBoxColumn columnStatus;
     }
 }

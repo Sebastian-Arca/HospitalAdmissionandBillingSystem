@@ -63,13 +63,15 @@
             label3 = new Label();
             label2 = new Label();
             label10 = new Label();
+            textBox7 = new TextBox();
+            label14 = new Label();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // label22
             // 
             label22.BackColor = Color.FromArgb(15, 37, 82);
-            label22.Location = new Point(3, 0);
+            label22.Location = new Point(1, -3);
             label22.Name = "label22";
             label22.Size = new Size(220, 757);
             label22.TabIndex = 40;
@@ -86,7 +88,7 @@
             button1.TabIndex = 41;
             button1.Text = "Dashboard ";
             button1.UseVisualStyleBackColor = false;
-            button1.Click += btnSaveChanges_Click;
+            button1.Click += button1_Click;
             // 
             // button2
             // 
@@ -200,6 +202,8 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(label14);
+            panel1.Controls.Add(textBox7);
             panel1.Controls.Add(button8);
             panel1.Controls.Add(button9);
             panel1.Controls.Add(textBox5);
@@ -250,6 +254,7 @@
             button9.TabIndex = 20;
             button9.Text = "Cancel";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // textBox5
             // 
@@ -447,6 +452,24 @@
             label10.TabIndex = 52;
             label10.Text = "Logged In:";
             // 
+            // textBox7
+            // 
+            textBox7.Location = new Point(4, 406);
+            textBox7.Margin = new Padding(4, 5, 4, 5);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(130, 31);
+            textBox7.TabIndex = 22;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(4, 376);
+            label14.Margin = new Padding(4, 0, 4, 0);
+            label14.Name = "label14";
+            label14.Size = new Size(130, 25);
+            label14.TabIndex = 23;
+            label14.Text = "Room Number";
+            // 
             // PatientInformation
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
@@ -512,5 +535,7 @@
         private TextBox textBox5;
         private TextBox textBox6;
         private ComboBox comboBox2;
+        private Label label14;
+        private TextBox textBox7;
     }
 }
