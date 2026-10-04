@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace UI
@@ -25,6 +20,26 @@ namespace UI
         private void LandingPage_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            PatientInformation patientForm = new PatientInformation(this);
+            patientForm.Show();
+            this.Hide();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Show();
+        }
+
+        public void AddPatient(string name, string room,
+            string type, string admissionDate, string status)
+        {
+            dataGridView1.Rows.Add(
+                name, room, type, admissionDate, status
+            );
         }
     }
 }
