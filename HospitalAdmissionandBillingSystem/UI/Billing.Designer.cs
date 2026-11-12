@@ -47,11 +47,11 @@
             label5 = new Label();
             label6 = new Label();
             dataGridView1 = new DataGridView();
-            DATE = new DataGridViewTextBoxColumn();
-            ITEM = new DataGridViewTextBoxColumn();
-            REFERENCE = new DataGridViewTextBoxColumn();
-            CHARGE = new DataGridViewTextBoxColumn();
-            PAID = new DataGridViewTextBoxColumn();
+            Column1 = new DataGridViewTextBoxColumn();
+            Column2 = new DataGridViewTextBoxColumn();
+            Column3 = new DataGridViewTextBoxColumn();
+            Column4 = new DataGridViewTextBoxColumn();
+            Column5 = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -253,47 +253,47 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { DATE, ITEM, REFERENCE, CHARGE, PAID });
-            dataGridView1.Location = new Point(254, 269);
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5 });
+            dataGridView1.Location = new Point(254, 267);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(818, 225);
+            dataGridView1.Size = new Size(818, 215);
             dataGridView1.TabIndex = 73;
             // 
-            // DATE
+            // Column1
             // 
-            DATE.HeaderText = "DATE";
-            DATE.MinimumWidth = 8;
-            DATE.Name = "DATE";
-            DATE.Width = 150;
+            Column1.HeaderText = "Data";
+            Column1.MinimumWidth = 8;
+            Column1.Name = "Column1";
+            Column1.Width = 150;
             // 
-            // ITEM
+            // Column2
             // 
-            ITEM.HeaderText = "ITEM";
-            ITEM.MinimumWidth = 8;
-            ITEM.Name = "ITEM";
-            ITEM.Width = 150;
+            Column2.HeaderText = "Item";
+            Column2.MinimumWidth = 8;
+            Column2.Name = "Column2";
+            Column2.Width = 150;
             // 
-            // REFERENCE
+            // Column3
             // 
-            REFERENCE.HeaderText = "REFERENCE";
-            REFERENCE.MinimumWidth = 8;
-            REFERENCE.Name = "REFERENCE";
-            REFERENCE.Width = 150;
+            Column3.HeaderText = "Reference";
+            Column3.MinimumWidth = 8;
+            Column3.Name = "Column3";
+            Column3.Width = 150;
             // 
-            // CHARGE
+            // Column4
             // 
-            CHARGE.HeaderText = "CHARGE";
-            CHARGE.MinimumWidth = 8;
-            CHARGE.Name = "CHARGE";
-            CHARGE.Width = 150;
+            Column4.HeaderText = "Charge";
+            Column4.MinimumWidth = 8;
+            Column4.Name = "Column4";
+            Column4.Width = 150;
             // 
-            // PAID
+            // Column5
             // 
-            PAID.HeaderText = "PAID";
-            PAID.MinimumWidth = 8;
-            PAID.Name = "PAID";
-            PAID.Width = 150;
+            Column5.HeaderText = "Paid";
+            Column5.MinimumWidth = 8;
+            Column5.Name = "Column5";
+            Column5.Width = 150;
             // 
             // Billing
             // 
@@ -347,10 +347,10 @@
         private Label label5;
         private Label label6;
         private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn DATE;
-        private DataGridViewTextBoxColumn ITEM;
-        private DataGridViewTextBoxColumn REFERENCE;
-        private DataGridViewTextBoxColumn CHARGE;
-        private DataGridViewTextBoxColumn PAID;
+        private DataGridViewTextBoxColumn Column1;
+        private DataGridViewTextBoxColumn Column2;
+        private DataGridViewTextBoxColumn Column3;
+        private DataGridViewTextBoxColumn Column4;
+        private DataGridViewTextBoxColumn Column5;
     }
 }
