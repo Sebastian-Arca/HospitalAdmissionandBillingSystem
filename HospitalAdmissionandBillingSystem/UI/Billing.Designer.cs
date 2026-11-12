@@ -215,9 +215,9 @@
             label3.Font = new Font("Segoe UI", 7F);
             label3.Location = new Point(886, 497);
             label3.Name = "label3";
-            label3.Size = new Size(166, 19);
+            label3.Size = new Size(173, 19);
             label3.TabIndex = 69;
-            label3.Text = "OUTSTANDING BALANCE";
+            label3.Text = "OUTSTANDING BALANCEe";
             // 
             // label5
             // 
