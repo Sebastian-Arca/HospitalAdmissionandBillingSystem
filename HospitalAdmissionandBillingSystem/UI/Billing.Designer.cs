@@ -47,11 +47,11 @@
             label5 = new Label();
             label6 = new Label();
             dataGridView1 = new DataGridView();
-            Column1 = new DataGridViewTextBoxColumn();
-            Column2 = new DataGridViewTextBoxColumn();
-            Column3 = new DataGridViewTextBoxColumn();
-            Column4 = new DataGridViewTextBoxColumn();
-            Column5 = new DataGridViewTextBoxColumn();
+            colDate = new DataGridViewTextBoxColumn();
+            colItem = new DataGridViewTextBoxColumn();
+            colReference = new DataGridViewTextBoxColumn();
+            colCharge = new DataGridViewTextBoxColumn();
+            colPaid = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -253,47 +253,47 @@
             // dataGridView1
             // 
             dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5 });
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { colDate, colItem, colReference, colCharge, colPaid });
             dataGridView1.Location = new Point(254, 267);
             dataGridView1.Name = "dataGridView1";
             dataGridView1.RowHeadersWidth = 62;
             dataGridView1.Size = new Size(818, 215);
             dataGridView1.TabIndex = 73;
             // 
-            // Column1
+            // colDate
             // 
-            Column1.HeaderText = "Data";
-            Column1.MinimumWidth = 8;
-            Column1.Name = "Column1";
-            Column1.Width = 150;
+            colDate.HeaderText = "Data";
+            colDate.MinimumWidth = 8;
+            colDate.Name = "colDate";
+            colDate.Width = 150;
             // 
-            // Column2
+            // colItem
             // 
-            Column2.HeaderText = "Item";
-            Column2.MinimumWidth = 8;
-            Column2.Name = "Column2";
-            Column2.Width = 150;
+            colItem.HeaderText = "Item";
+            colItem.MinimumWidth = 8;
+            colItem.Name = "colItem";
+            colItem.Width = 150;
             // 
-            // Column3
+            // colReference
             // 
-            Column3.HeaderText = "Reference";
-            Column3.MinimumWidth = 8;
-            Column3.Name = "Column3";
-            Column3.Width = 150;
+            colReference.HeaderText = "Reference";
+            colReference.MinimumWidth = 8;
+            colReference.Name = "colReference";
+            colReference.Width = 150;
             // 
-            // Column4
+            // colCharge
             // 
-            Column4.HeaderText = "Charge";
-            Column4.MinimumWidth = 8;
-            Column4.Name = "Column4";
-            Column4.Width = 150;
+            colCharge.HeaderText = "Charge";
+            colCharge.MinimumWidth = 8;
+            colCharge.Name = "colCharge";
+            colCharge.Width = 150;
             // 
-            // Column5
+            // colPaid
             // 
-            Column5.HeaderText = "Paid";
-            Column5.MinimumWidth = 8;
-            Column5.Name = "Column5";
-            Column5.Width = 150;
+            colPaid.HeaderText = "Paid";
+            colPaid.MinimumWidth = 8;
+            colPaid.Name = "colPaid";
+            colPaid.Width = 150;
             // 
             // Billing
             // 
@@ -347,10 +347,10 @@
         private Label label5;
         private Label label6;
         private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn Column1;
-        private DataGridViewTextBoxColumn Column2;
-        private DataGridViewTextBoxColumn Column3;
-        private DataGridViewTextBoxColumn Column4;
-        private DataGridViewTextBoxColumn Column5;
+        private DataGridViewTextBoxColumn colDate;
+        private DataGridViewTextBoxColumn colItem;
+        private DataGridViewTextBoxColumn colReference;
+        private DataGridViewTextBoxColumn colCharge;
+        private DataGridViewTextBoxColumn colPaid;
     }
 }
