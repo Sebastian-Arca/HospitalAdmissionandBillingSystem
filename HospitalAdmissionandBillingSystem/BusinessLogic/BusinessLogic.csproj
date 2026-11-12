@@ -17,6 +17,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="11.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="11.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="11.0.0" />
+    <PackageReference Include="NuGet.Frameworks" Version="8.0.0" />
     <PackageReference Include="System.Security.Cryptography.Pkcs" Version="11.0.0" />
   </ItemGroup>
 

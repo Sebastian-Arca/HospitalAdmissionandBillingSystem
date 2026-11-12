@@ -43,7 +43,6 @@
             button8 = new Button();
             button9 = new Button();
             label3 = new Label();
-            label4 = new Label();
             label5 = new Label();
             label6 = new Label();
             dataGridView1 = new DataGridView();
@@ -52,6 +51,7 @@
             colReference = new DataGridViewTextBoxColumn();
             colCharge = new DataGridViewTextBoxColumn();
             colPaid = new DataGridViewTextBoxColumn();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -219,17 +219,6 @@
             label3.TabIndex = 69;
             label3.Text = "OUTSTANDING BALANCE";
             // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
-            label4.ForeColor = Color.FromArgb(7, 72, 125);
-            label4.Location = new Point(897, 540);
-            label4.Name = "label4";
-            label4.Size = new Size(155, 41);
-            label4.TabIndex = 70;
-            label4.Text = "AMOUNT";
-            // 
             // label5
             // 
             label5.AutoSize = true;
@@ -295,15 +284,26 @@
             colPaid.Name = "colPaid";
             colPaid.Width = 150;
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Segoe UI", 15F, FontStyle.Bold);
+            label4.ForeColor = Color.FromArgb(7, 72, 125);
+            label4.Location = new Point(920, 540);
+            label4.Name = "label4";
+            label4.Size = new Size(132, 41);
+            label4.TabIndex = 74;
+            label4.Text = "Amount";
+            // 
             // Billing
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1107, 660);
+            Controls.Add(label4);
             Controls.Add(dataGridView1);
             Controls.Add(label6);
             Controls.Add(label5);
-            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(button9);
             Controls.Add(button8);
@@ -343,7 +343,6 @@
         private Button button8;
         private Button button9;
         private Label label3;
-        private Label label4;
         private Label label5;
         private Label label6;
         private DataGridView dataGridView1;
@@ -352,5 +351,6 @@
         private DataGridViewTextBoxColumn colReference;
         private DataGridViewTextBoxColumn colCharge;
         private DataGridViewTextBoxColumn colPaid;
+        private Label label4;
     }
 }
