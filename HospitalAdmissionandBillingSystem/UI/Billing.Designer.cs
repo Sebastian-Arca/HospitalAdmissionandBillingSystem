@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle13 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle14 = new DataGridViewCellStyle();
             button1 = new Button();
             label22 = new Label();
             label1 = new Label();
@@ -40,12 +38,6 @@
             button6 = new Button();
             button7 = new Button();
             label2 = new Label();
-            dataGridView1 = new DataGridView();
-            DATE = new DataGridViewTextBoxColumn();
-            ITEM = new DataGridViewTextBoxColumn();
-            REFERENCE = new DataGridViewTextBoxColumn();
-            CHARGE = new DataGridViewTextBoxColumn();
-            PAID = new DataGridViewTextBoxColumn();
             label28 = new Label();
             label10 = new Label();
             button8 = new Button();
@@ -54,6 +46,12 @@
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
+            dataGridView1 = new DataGridView();
+            DATE = new DataGridViewTextBoxColumn();
+            ITEM = new DataGridViewTextBoxColumn();
+            REFERENCE = new DataGridViewTextBoxColumn();
+            CHARGE = new DataGridViewTextBoxColumn();
+            PAID = new DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
@@ -168,68 +166,6 @@
             label2.Size = new Size(854, 96);
             label2.TabIndex = 56;
             // 
-            // dataGridView1
-            // 
-            dataGridViewCellStyle13.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = SystemColors.Control;
-            dataGridViewCellStyle13.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle13.ForeColor = SystemColors.WindowText;
-            dataGridViewCellStyle13.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle13.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = DataGridViewTriState.True;
-            dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { DATE, ITEM, REFERENCE, CHARGE, PAID });
-            dataGridViewCellStyle14.Alignment = DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = SystemColors.Window;
-            dataGridViewCellStyle14.Font = new Font("Segoe UI", 9F);
-            dataGridViewCellStyle14.ForeColor = SystemColors.ControlText;
-            dataGridViewCellStyle14.SelectionBackColor = SystemColors.Highlight;
-            dataGridViewCellStyle14.SelectionForeColor = SystemColors.HighlightText;
-            dataGridViewCellStyle14.WrapMode = DataGridViewTriState.False;
-            dataGridView1.DefaultCellStyle = dataGridViewCellStyle14;
-            dataGridView1.Location = new Point(258, 273);
-            dataGridView1.Margin = new Padding(6, 5, 6, 5);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 62;
-            dataGridView1.Size = new Size(814, 210);
-            dataGridView1.TabIndex = 64;
-            // 
-            // DATE
-            // 
-            DATE.HeaderText = "DATE";
-            DATE.MinimumWidth = 8;
-            DATE.Name = "DATE";
-            DATE.Width = 150;
-            // 
-            // ITEM
-            // 
-            ITEM.HeaderText = "ITEM";
-            ITEM.MinimumWidth = 8;
-            ITEM.Name = "ITEM";
-            ITEM.Width = 150;
-            // 
-            // REFERENCE
-            // 
-            REFERENCE.HeaderText = "REFERENCE";
-            REFERENCE.MinimumWidth = 8;
-            REFERENCE.Name = "REFERENCE";
-            REFERENCE.Width = 150;
-            // 
-            // CHARGE
-            // 
-            CHARGE.HeaderText = "CHARGE";
-            CHARGE.MinimumWidth = 8;
-            CHARGE.Name = "CHARGE";
-            CHARGE.Width = 150;
-            // 
-            // PAID
-            // 
-            PAID.HeaderText = "PAID";
-            PAID.MinimumWidth = 8;
-            PAID.Name = "PAID";
-            PAID.Width = 150;
-            // 
             // label28
             // 
             label28.AutoSize = true;
@@ -314,11 +250,57 @@
             label6.TabIndex = 72;
             label6.Text = "Patient Name";
             // 
+            // dataGridView1
+            // 
+            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView1.Columns.AddRange(new DataGridViewColumn[] { DATE, ITEM, REFERENCE, CHARGE, PAID });
+            dataGridView1.Location = new Point(254, 269);
+            dataGridView1.Name = "dataGridView1";
+            dataGridView1.RowHeadersWidth = 62;
+            dataGridView1.Size = new Size(818, 225);
+            dataGridView1.TabIndex = 73;
+            // 
+            // DATE
+            // 
+            DATE.HeaderText = "DATE";
+            DATE.MinimumWidth = 8;
+            DATE.Name = "DATE";
+            DATE.Width = 150;
+            // 
+            // ITEM
+            // 
+            ITEM.HeaderText = "ITEM";
+            ITEM.MinimumWidth = 8;
+            ITEM.Name = "ITEM";
+            ITEM.Width = 150;
+            // 
+            // REFERENCE
+            // 
+            REFERENCE.HeaderText = "REFERENCE";
+            REFERENCE.MinimumWidth = 8;
+            REFERENCE.Name = "REFERENCE";
+            REFERENCE.Width = 150;
+            // 
+            // CHARGE
+            // 
+            CHARGE.HeaderText = "CHARGE";
+            CHARGE.MinimumWidth = 8;
+            CHARGE.Name = "CHARGE";
+            CHARGE.Width = 150;
+            // 
+            // PAID
+            // 
+            PAID.HeaderText = "PAID";
+            PAID.MinimumWidth = 8;
+            PAID.Name = "PAID";
+            PAID.Width = 150;
+            // 
             // Billing
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1107, 660);
+            Controls.Add(dataGridView1);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -327,7 +309,6 @@
             Controls.Add(button8);
             Controls.Add(label10);
             Controls.Add(label28);
-            Controls.Add(dataGridView1);
             Controls.Add(label2);
             Controls.Add(button7);
             Controls.Add(button6);
@@ -357,12 +338,6 @@
         private Button button6;
         private Button button7;
         private Label label2;
-        private DataGridView dataGridView1;
-        private DataGridViewTextBoxColumn DATE;
-        private DataGridViewTextBoxColumn ITEM;
-        private DataGridViewTextBoxColumn REFERENCE;
-        private DataGridViewTextBoxColumn CHARGE;
-        private DataGridViewTextBoxColumn PAID;
         private Label label28;
         private Label label10;
         private Button button8;
@@ -371,5 +346,11 @@
         private Label label4;
         private Label label5;
         private Label label6;
+        private DataGridView dataGridView1;
+        private DataGridViewTextBoxColumn DATE;
+        private DataGridViewTextBoxColumn ITEM;
+        private DataGridViewTextBoxColumn REFERENCE;
+        private DataGridViewTextBoxColumn CHARGE;
+        private DataGridViewTextBoxColumn PAID;
     }
 }
