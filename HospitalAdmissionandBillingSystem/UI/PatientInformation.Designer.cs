@@ -39,31 +39,31 @@
             label1 = new Label();
             button8 = new Button();
             label28 = new Label();
-            panel1 = new Panel();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            label5 = new Label();
-            label6 = new Label();
-            label7 = new Label();
-            label8 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            dateTimePicker1 = new DateTimePicker();
-            comboBox1 = new ComboBox();
-            label9 = new Label();
             label10 = new Label();
-            label11 = new Label();
-            label12 = new Label();
-            label13 = new Label();
-            comboBox2 = new ComboBox();
-            textBox5 = new TextBox();
+            panel2 = new Panel();
+            button11 = new Button();
+            button12 = new Button();
             textBox6 = new TextBox();
-            button9 = new Button();
-            button10 = new Button();
-            panel1.SuspendLayout();
+            textBox5 = new TextBox();
+            comboBox2 = new ComboBox();
+            label4 = new Label();
+            label12 = new Label();
+            label11 = new Label();
+            label7 = new Label();
+            comboBox1 = new ComboBox();
+            dateTimePicker1 = new DateTimePicker();
+            textBox4 = new TextBox();
+            textBox3 = new TextBox();
+            textBox2 = new TextBox();
+            textBox7 = new TextBox();
+            label14 = new Label();
+            label15 = new Label();
+            label16 = new Label();
+            label17 = new Label();
+            label18 = new Label();
+            label19 = new Label();
+            label20 = new Label();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // label22
@@ -204,153 +204,6 @@
             label28.TabIndex = 50;
             label28.Text = "Patient Information";
             // 
-            // panel1
-            // 
-            panel1.BackColor = Color.White;
-            panel1.Controls.Add(button10);
-            panel1.Controls.Add(button9);
-            panel1.Controls.Add(textBox6);
-            panel1.Controls.Add(textBox5);
-            panel1.Controls.Add(comboBox2);
-            panel1.Controls.Add(label13);
-            panel1.Controls.Add(label12);
-            panel1.Controls.Add(label11);
-            panel1.Controls.Add(label9);
-            panel1.Controls.Add(comboBox1);
-            panel1.Controls.Add(dateTimePicker1);
-            panel1.Controls.Add(textBox4);
-            panel1.Controls.Add(textBox3);
-            panel1.Controls.Add(textBox2);
-            panel1.Controls.Add(textBox1);
-            panel1.Controls.Add(label8);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(label4);
-            panel1.Controls.Add(label3);
-            panel1.Controls.Add(label2);
-            panel1.Location = new Point(173, 131);
-            panel1.Name = "panel1";
-            panel1.Size = new Size(615, 307);
-            panel1.TabIndex = 51;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label2.Location = new Point(3, 5);
-            label2.Name = "label2";
-            label2.Size = new Size(146, 20);
-            label2.TabIndex = 0;
-            label2.Text = "Personal Information";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(3, 29);
-            label3.Name = "label3";
-            label3.Size = new Size(61, 15);
-            label3.TabIndex = 1;
-            label3.Text = "Full Name";
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(228, 29);
-            label4.Name = "label4";
-            label4.Size = new Size(73, 15);
-            label4.TabIndex = 2;
-            label4.Text = "Date of Birth";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(455, 29);
-            label5.Name = "label5";
-            label5.Size = new Size(45, 15);
-            label5.TabIndex = 3;
-            label5.Text = "Gender";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(3, 84);
-            label6.Name = "label6";
-            label6.Size = new Size(41, 15);
-            label6.TabIndex = 4;
-            label6.Text = "Phone";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(171, 84);
-            label7.Name = "label7";
-            label7.Size = new Size(36, 15);
-            label7.TabIndex = 5;
-            label7.Text = "Email";
-            // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(414, 84);
-            label8.Name = "label8";
-            label8.Size = new Size(58, 15);
-            label8.TabIndex = 6;
-            label8.Text = "Patient ID";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(3, 47);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(210, 23);
-            textBox1.TabIndex = 7;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(3, 102);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(146, 23);
-            textBox2.TabIndex = 8;
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(171, 102);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(218, 23);
-            textBox3.TabIndex = 9;
-            // 
-            // textBox4
-            // 
-            textBox4.Location = new Point(414, 102);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(160, 23);
-            textBox4.TabIndex = 10;
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Location = new Point(228, 47);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(200, 23);
-            dateTimePicker1.TabIndex = 11;
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(455, 47);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(55, 23);
-            comboBox1.TabIndex = 12;
-            // 
-            // label9
-            // 
-            label9.AutoSize = true;
-            label9.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label9.Location = new Point(3, 151);
-            label9.Name = "label9";
-            label9.Size = new Size(144, 20);
-            label9.TabIndex = 13;
-            label9.Text = "Medical Information";
-            // 
             // label10
             // 
             label10.AutoSize = true;
@@ -360,14 +213,86 @@
             label10.TabIndex = 52;
             label10.Text = "Logged In:";
             // 
-            // label11
+            // panel2
             // 
-            label11.AutoSize = true;
-            label11.Location = new Point(3, 171);
-            label11.Name = "label11";
-            label11.Size = new Size(102, 15);
-            label11.TabIndex = 14;
-            label11.Text = "Primary Diagnosis";
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(button11);
+            panel2.Controls.Add(button12);
+            panel2.Controls.Add(textBox6);
+            panel2.Controls.Add(textBox5);
+            panel2.Controls.Add(comboBox2);
+            panel2.Controls.Add(label4);
+            panel2.Controls.Add(label12);
+            panel2.Controls.Add(label11);
+            panel2.Controls.Add(label7);
+            panel2.Controls.Add(comboBox1);
+            panel2.Controls.Add(dateTimePicker1);
+            panel2.Controls.Add(textBox4);
+            panel2.Controls.Add(textBox3);
+            panel2.Controls.Add(textBox2);
+            panel2.Controls.Add(textBox7);
+            panel2.Controls.Add(label14);
+            panel2.Controls.Add(label15);
+            panel2.Controls.Add(label16);
+            panel2.Controls.Add(label17);
+            panel2.Controls.Add(label18);
+            panel2.Controls.Add(label19);
+            panel2.Controls.Add(label20);
+            panel2.Location = new Point(173, 153);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(615, 277);
+            panel2.TabIndex = 71;
+            // 
+            // button11
+            // 
+            button11.BackColor = Color.Blue;
+            button11.ForeColor = SystemColors.ButtonFace;
+            button11.Location = new Point(495, 251);
+            button11.Name = "button11";
+            button11.Size = new Size(100, 23);
+            button11.TabIndex = 21;
+            button11.Text = "Save Changes";
+            button11.UseVisualStyleBackColor = false;
+            // 
+            // button12
+            // 
+            button12.Location = new Point(414, 251);
+            button12.Name = "button12";
+            button12.Size = new Size(75, 23);
+            button12.TabIndex = 20;
+            button12.Text = "Cancel";
+            button12.UseVisualStyleBackColor = true;
+            // 
+            // textBox6
+            // 
+            textBox6.Location = new Point(180, 194);
+            textBox6.Name = "textBox6";
+            textBox6.Size = new Size(146, 23);
+            textBox6.TabIndex = 19;
+            // 
+            // textBox5
+            // 
+            textBox5.Location = new Point(3, 194);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(161, 23);
+            textBox5.TabIndex = 18;
+            // 
+            // comboBox2
+            // 
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Location = new Point(345, 194);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(65, 23);
+            comboBox2.TabIndex = 17;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(345, 171);
+            label4.Name = "label4";
+            label4.Size = new Size(65, 15);
+            label4.TabIndex = 16;
+            label4.Text = "Blood Type";
             // 
             // label12
             // 
@@ -378,56 +303,131 @@
             label12.TabIndex = 15;
             label12.Text = "Allergies";
             // 
-            // label13
+            // label11
             // 
-            label13.AutoSize = true;
-            label13.Location = new Point(345, 171);
-            label13.Name = "label13";
-            label13.Size = new Size(65, 15);
-            label13.TabIndex = 16;
-            label13.Text = "Blood Type";
+            label11.AutoSize = true;
+            label11.Location = new Point(3, 171);
+            label11.Name = "label11";
+            label11.Size = new Size(102, 15);
+            label11.TabIndex = 14;
+            label11.Text = "Primary Diagnosis";
             // 
-            // comboBox2
+            // label7
             // 
-            comboBox2.FormattingEnabled = true;
-            comboBox2.Location = new Point(345, 194);
-            comboBox2.Name = "comboBox2";
-            comboBox2.Size = new Size(65, 23);
-            comboBox2.TabIndex = 17;
+            label7.AutoSize = true;
+            label7.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label7.Location = new Point(3, 151);
+            label7.Name = "label7";
+            label7.Size = new Size(144, 20);
+            label7.TabIndex = 13;
+            label7.Text = "Medical Information";
             // 
-            // textBox5
+            // comboBox1
             // 
-            textBox5.Location = new Point(3, 194);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(161, 23);
-            textBox5.TabIndex = 18;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(455, 47);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(55, 23);
+            comboBox1.TabIndex = 12;
             // 
-            // textBox6
+            // dateTimePicker1
             // 
-            textBox6.Location = new Point(180, 194);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(146, 23);
-            textBox6.TabIndex = 19;
+            dateTimePicker1.Location = new Point(228, 47);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(200, 23);
+            dateTimePicker1.TabIndex = 11;
             // 
-            // button9
+            // textBox4
             // 
-            button9.Location = new Point(414, 261);
-            button9.Name = "button9";
-            button9.Size = new Size(75, 23);
-            button9.TabIndex = 20;
-            button9.Text = "Cancel";
-            button9.UseVisualStyleBackColor = true;
+            textBox4.Location = new Point(414, 102);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(160, 23);
+            textBox4.TabIndex = 10;
             // 
-            // button10
+            // textBox3
             // 
-            button10.BackColor = Color.Blue;
-            button10.ForeColor = SystemColors.ButtonFace;
-            button10.Location = new Point(495, 261);
-            button10.Name = "button10";
-            button10.Size = new Size(100, 23);
-            button10.TabIndex = 21;
-            button10.Text = "Save Changes";
-            button10.UseVisualStyleBackColor = false;
+            textBox3.Location = new Point(171, 102);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(218, 23);
+            textBox3.TabIndex = 9;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(3, 102);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(146, 23);
+            textBox2.TabIndex = 8;
+            // 
+            // textBox7
+            // 
+            textBox7.Location = new Point(3, 47);
+            textBox7.Name = "textBox7";
+            textBox7.Size = new Size(210, 23);
+            textBox7.TabIndex = 7;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Location = new Point(414, 84);
+            label14.Name = "label14";
+            label14.Size = new Size(58, 15);
+            label14.TabIndex = 6;
+            label14.Text = "Patient ID";
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Location = new Point(171, 84);
+            label15.Name = "label15";
+            label15.Size = new Size(36, 15);
+            label15.TabIndex = 5;
+            label15.Text = "Email";
+            // 
+            // label16
+            // 
+            label16.AutoSize = true;
+            label16.Location = new Point(3, 84);
+            label16.Name = "label16";
+            label16.Size = new Size(41, 15);
+            label16.TabIndex = 4;
+            label16.Text = "Phone";
+            // 
+            // label17
+            // 
+            label17.AutoSize = true;
+            label17.Location = new Point(455, 29);
+            label17.Name = "label17";
+            label17.Size = new Size(45, 15);
+            label17.TabIndex = 3;
+            label17.Text = "Gender";
+            // 
+            // label18
+            // 
+            label18.AutoSize = true;
+            label18.Location = new Point(228, 29);
+            label18.Name = "label18";
+            label18.Size = new Size(73, 15);
+            label18.TabIndex = 2;
+            label18.Text = "Date of Birth";
+            // 
+            // label19
+            // 
+            label19.AutoSize = true;
+            label19.Location = new Point(3, 29);
+            label19.Name = "label19";
+            label19.Size = new Size(61, 15);
+            label19.TabIndex = 1;
+            label19.Text = "Full Name";
+            // 
+            // label20
+            // 
+            label20.AutoSize = true;
+            label20.Font = new Font("Segoe UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label20.Location = new Point(3, 5);
+            label20.Name = "label20";
+            label20.Size = new Size(146, 20);
+            label20.TabIndex = 0;
+            label20.Text = "Personal Information";
             // 
             // PatientInformation
             // 
@@ -435,8 +435,8 @@
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Azure;
             ClientSize = new Size(800, 450);
+            Controls.Add(panel2);
             Controls.Add(label10);
-            Controls.Add(panel1);
             Controls.Add(label28);
             Controls.Add(button8);
             Controls.Add(label1);
@@ -450,8 +450,8 @@
             Controls.Add(label22);
             Name = "PatientInformation";
             Text = "PatientInformation";
-            panel1.ResumeLayout(false);
-            panel1.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -469,29 +469,29 @@
         private Label label1;
         private Button button8;
         private Label label28;
-        private Panel panel1;
-        private Label label6;
-        private Label label5;
+        private Label label10;
+        private Panel panel2;
+        private Button button11;
+        private Button button12;
+        private TextBox textBox6;
+        private TextBox textBox5;
+        private ComboBox comboBox2;
         private Label label4;
-        private Label label3;
-        private Label label2;
+        private Label label12;
+        private Label label11;
+        private Label label7;
         private ComboBox comboBox1;
         private DateTimePicker dateTimePicker1;
         private TextBox textBox4;
         private TextBox textBox3;
         private TextBox textBox2;
-        private TextBox textBox1;
-        private Label label8;
-        private Label label7;
-        private Label label13;
-        private Label label12;
-        private Label label11;
-        private Label label9;
-        private Label label10;
-        private Button button10;
-        private Button button9;
-        private TextBox textBox6;
-        private TextBox textBox5;
-        private ComboBox comboBox2;
+        private TextBox textBox7;
+        private Label label14;
+        private Label label15;
+        private Label label16;
+        private Label label17;
+        private Label label18;
+        private Label label19;
+        private Label label20;
     }
 }
